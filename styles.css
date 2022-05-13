@@ -1,0 +1,56 @@
+:root{
+    font-family: Ubuntu;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+body {
+    background-color: rgb(224, 10, 10);
+    background-image: linear-gradient(115deg, #15151550, #f2d56690), url("./assets/bkg.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.header p {
+    margin-top:-1rem;
+}
+
+#survey-form {
+    background-color: #16530650;
+    padding: 2rem 0.65rem;
+    border-radius: 8px;
+    border: 1px solid #051d0250;
+    width:100%;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+label {
+    display: flex;
+    padding: 0.5rem 0.5rem ;
+    font-size: 500;
+}
+
+.form-control { 
+    box-sizing: border-box;
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.form-group {
+
+    
+}
